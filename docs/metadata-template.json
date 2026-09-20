@@ -1,0 +1,14 @@
+{
+  "participant_id": "model-a",
+  "run_id": "run-01",
+  "round": "v1",
+  "provider": "",
+  "model": "",
+  "model_version": "",
+  "access_method": "web",
+  "temperature": "not_available",
+  "tools_enabled": "not_available",
+  "generated_at": "",
+  "notes": ""
+}
+

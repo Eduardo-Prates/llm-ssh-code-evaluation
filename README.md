@@ -96,10 +96,30 @@ Aspectos subjetivos, como estilo do código, qualidade da explicação ou prefer
 ## Requisitos do ambiente
 
 - Python 3.11 ou superior;
-- somente dependências documentadas pelo avaliador;
+- nenhuma biblioteca externa obrigatória;
 - os mesmos comandos, dados e limites de execução para todos os modelos.
 
-Os comandos definitivos de instalação e avaliação serão adicionados quando o avaliador automatizado estiver concluído.
+## Execução rápida
+
+Valide a infraestrutura usando a implementação de referência:
+
+```powershell
+python evaluator/evaluator.py --solution reference/solution.py --output reports/reference-report.json
+```
+
+Gere o feedback determinístico de uma execução:
+
+```powershell
+python evaluator/generate_feedback.py --report reports/reference-report.json --output reports/reference-feedback.txt
+```
+
+Avalie todas as pastas previstas no protocolo e consolide os resultados:
+
+```powershell
+python evaluator/evaluate_all.py
+```
+
+Os comandos podem ser executados da mesma forma no Linux ou no macOS, substituindo `python` por `python3` quando necessário. Consulte [docs/PROTOCOLO.md](docs/PROTOCOLO.md) para o procedimento completo.
 
 ## Reprodutibilidade
 
@@ -109,7 +129,7 @@ Os testes podem permanecer reservados durante o experimento e ser publicados ap�
 
 ## Estado do projeto
 
-O repositório está em preparação. A estrutura experimental foi criada e os próximos passos são adicionar o protocolo, os prompts, o avaliador, a implementação de referência e a bateria de testes.
+O repositório contém os prompts congeláveis, dados sintéticos, implementação de referência, bateria de 20 testes, avaliador isolado por processo, geração automática de feedback e consolidação das métricas em JSON e CSV.
 
 ## Licença
 

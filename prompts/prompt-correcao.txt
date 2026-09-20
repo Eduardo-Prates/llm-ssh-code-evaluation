@@ -1,0 +1,21 @@
+Sua implementação anterior foi executada por uma bateria padronizada de testes automatizados.
+
+Analise o relatório e corrija sua solução.
+
+REGRAS
+
+1. Crie e entregue novamente um arquivo baixável chamado exatamente solution.py.
+2. Preserve as assinaturas das funções.
+3. Não utilize bibliotecas externas.
+4. Não remova funcionalidades que já estejam funcionando.
+5. Não solicite o código dos testes.
+6. Não faça perguntas adicionais.
+7. Use somente a especificação original, seu código anterior e o relatório automático.
+8. Não inclua explicações ou arquivos adicionais.
+9. Não apresente o código apenas como bloco de texto no chat.
+10. Não compacte o arquivo.
+
+RELATÓRIO AUTOMÁTICO
+
+[COLE AQUI O CONTEÚDO DE feedback.txt SEM MODIFICAÇÕES]
+

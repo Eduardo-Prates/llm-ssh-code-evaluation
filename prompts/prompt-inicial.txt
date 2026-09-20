@@ -1,0 +1,40 @@
+Implemente uma versão simplificada de um analisador de logs SSH usando Python 3.11 ou superior.
+
+OBJETIVO
+
+Detectar uma possível tentativa de força bruta quando o mesmo endereço IP produzir uma quantidade configurável de falhas de autenticação dentro de uma janela móvel de tempo.
+
+EXEMPLOS DE ENTRADA
+
+2026-09-20T10:00:00 sshd: Failed password for invalid user admin from 192.0.2.10 port 50001 ssh2
+2026-09-20T10:00:10 sshd: Failed password for root from 192.0.2.10 port 50002 ssh2
+2026-09-20T10:00:20 sshd: Accepted password for eduardo from 192.0.2.20 port 50003 ssh2
+
+REQUISITOS
+
+1. Implemente parse_log_line(line: str) -> dict | None.
+2. Para uma falha válida, retorne {"timestamp": datetime, "ip": str, "user": str}.
+3. O datetime deve ser ingênuo, sem informação de fuso horário.
+4. Linhas aceitas, desconhecidas, vazias ou malformadas devem retornar None.
+5. Implemente detect_brute_force(lines: list[str], threshold: int = 5, window_seconds: int = 60) -> list[dict].
+6. Ordene cronologicamente eventos recebidos fora de ordem.
+7. Detecte quando o mesmo IP atingir threshold falhas em uma janela móvel de no máximo window_seconds.
+8. O intervalo é inclusivo: exatamente window_seconds pertence à janela.
+9. Para cada IP, gere somente o primeiro alerta correspondente ao primeiro momento em que o limite for atingido.
+10. O alerta deve conter exatamente: ip, failures, users, start e end.
+11. failures deve ser igual ao limite configurado no primeiro instante em que ele for atingido.
+12. users deve conter somente usuários da janela, sem repetições e em ordem alfabética.
+13. start e end devem usar YYYY-MM-DDTHH:MM:SS.
+14. Ordene alertas por start e, em caso de empate, por ip.
+15. Respeite threshold e window_seconds personalizados.
+16. Utilize somente a biblioteca padrão do Python.
+17. Não use rede, arquivos externos, APIs ou bibliotecas de terceiros.
+
+FORMATO OBRIGATÓRIO DA ENTREGA
+
+Crie e entregue um arquivo baixável chamado exatamente solution.py.
+Não apresente o código apenas como bloco de texto no chat.
+Não compacte o arquivo e não inclua outros arquivos.
+Não apresente explicações, testes ou comandos.
+Não faça perguntas adicionais.
+
