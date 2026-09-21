@@ -100,49 +100,49 @@
       "model": "model-c",
       "run": "run-01",
       "total": 20,
-      "passed_v1": 0,
-      "passed_v2": 0,
-      "score_v1": 0.0,
-      "score_v2": 0.0,
+      "passed_v1": 20,
+      "passed_v2": 20,
+      "score_v1": 100.0,
+      "score_v2": 100.0,
       "absolute_gain": 0,
       "corrected_failures": 0,
       "regressions": 0,
-      "correction_rate": 0.0,
-      "regression_rate": null,
-      "delivery_error_v1": true,
-      "delivery_error_v2": true
+      "correction_rate": null,
+      "regression_rate": 0.0,
+      "delivery_error_v1": false,
+      "delivery_error_v2": false
     },
     {
       "model": "model-c",
       "run": "run-02",
       "total": 20,
-      "passed_v1": 0,
-      "passed_v2": 0,
-      "score_v1": 0.0,
-      "score_v2": 0.0,
+      "passed_v1": 20,
+      "passed_v2": 20,
+      "score_v1": 100.0,
+      "score_v2": 100.0,
       "absolute_gain": 0,
       "corrected_failures": 0,
       "regressions": 0,
-      "correction_rate": 0.0,
-      "regression_rate": null,
-      "delivery_error_v1": true,
-      "delivery_error_v2": true
+      "correction_rate": null,
+      "regression_rate": 0.0,
+      "delivery_error_v1": false,
+      "delivery_error_v2": false
     },
     {
       "model": "model-c",
       "run": "run-03",
       "total": 20,
-      "passed_v1": 0,
-      "passed_v2": 0,
-      "score_v1": 0.0,
-      "score_v2": 0.0,
+      "passed_v1": 20,
+      "passed_v2": 20,
+      "score_v1": 100.0,
+      "score_v2": 100.0,
       "absolute_gain": 0,
       "corrected_failures": 0,
       "regressions": 0,
-      "correction_rate": 0.0,
-      "regression_rate": null,
-      "delivery_error_v1": true,
-      "delivery_error_v2": true
+      "correction_rate": null,
+      "regression_rate": 0.0,
+      "delivery_error_v1": false,
+      "delivery_error_v2": false
     }
   ],
   "by_model": {
@@ -268,31 +268,31 @@
     },
     "model-c": {
       "passed_v1": {
-        "mean": 0,
-        "median": 0,
-        "minimum": 0,
-        "maximum": 0,
+        "mean": 20,
+        "median": 20,
+        "minimum": 20,
+        "maximum": 20,
         "population_standard_deviation": 0.0
       },
       "passed_v2": {
-        "mean": 0,
-        "median": 0,
-        "minimum": 0,
-        "maximum": 0,
+        "mean": 20,
+        "median": 20,
+        "minimum": 20,
+        "maximum": 20,
         "population_standard_deviation": 0.0
       },
       "score_v1": {
-        "mean": 0.0,
-        "median": 0.0,
-        "minimum": 0.0,
-        "maximum": 0.0,
+        "mean": 100.0,
+        "median": 100.0,
+        "minimum": 100.0,
+        "maximum": 100.0,
         "population_standard_deviation": 0.0
       },
       "score_v2": {
-        "mean": 0.0,
-        "median": 0.0,
-        "minimum": 0.0,
-        "maximum": 0.0,
+        "mean": 100.0,
+        "median": 100.0,
+        "minimum": 100.0,
+        "maximum": 100.0,
         "population_standard_deviation": 0.0
       },
       "absolute_gain": {
@@ -316,14 +316,14 @@
         "maximum": 0,
         "population_standard_deviation": 0.0
       },
-      "correction_rate": {
+      "correction_rate": null,
+      "regression_rate": {
         "mean": 0.0,
         "median": 0.0,
         "minimum": 0.0,
         "maximum": 0.0,
         "population_standard_deviation": 0.0
       },
-      "regression_rate": null,
       "runs": 3
     }
   }

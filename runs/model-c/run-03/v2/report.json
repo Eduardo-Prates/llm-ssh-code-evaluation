@@ -1,8 +1,8 @@
 {
   "protocol_version": "1.0",
-  "generated_at": "2026-09-21T01:21:39.337334+00:00",
-  "python_version": "3.14.2",
-  "solution": "D:\\user\\unipampa\\8º Semestre\\LEAS\\atividades\\t5\\llm-ssh-code-evaluation\\runs\\model-c\\run-03\\v2\\solution.py",
+  "generated_at": "2026-09-21T01:28:16.535005+00:00",
+  "python_version": "3.14.6",
+  "solution": "D:\\Lab-artefatos\\llm-ssh-code-evaluation\\runs\\model-c\\run-03\\v2\\solution.py",
   "timeout_seconds_per_test": 3.0,
   "delivery_error": false,
   "total": 20,
@@ -15,140 +15,140 @@
       "name": "parse_valid_user",
       "group": "parser",
       "status": "passed",
-      "duration_ms": 10.306
+      "duration_ms": 9.418
     },
     {
       "id": "T02",
       "name": "parse_invalid_user",
       "group": "parser",
       "status": "passed",
-      "duration_ms": 8.461
+      "duration_ms": 9.146
     },
     {
       "id": "T03",
       "name": "accepted_returns_none",
       "group": "parser",
       "status": "passed",
-      "duration_ms": 1.722
+      "duration_ms": 1.976
     },
     {
       "id": "T04",
       "name": "malformed_returns_none",
       "group": "parser",
       "status": "passed",
-      "duration_ms": 1.645
+      "duration_ms": 2.059
     },
     {
       "id": "T05",
       "name": "unrelated_returns_none",
       "group": "parser",
       "status": "passed",
-      "duration_ms": 2.074
+      "duration_ms": 1.756
     },
     {
       "id": "T06",
       "name": "ipv6_address",
       "group": "parser",
       "status": "passed",
-      "duration_ms": 8.225
+      "duration_ms": 9.189
     },
     {
       "id": "T07",
       "name": "five_failures_under_60_seconds",
       "group": "detection",
       "status": "passed",
-      "duration_ms": 9.003
+      "duration_ms": 8.978
     },
     {
       "id": "T08",
       "name": "five_failures_over_60_seconds",
       "group": "detection",
       "status": "passed",
-      "duration_ms": 8.522
+      "duration_ms": 8.821
     },
     {
       "id": "T09",
       "name": "exact_60_second_boundary",
       "group": "detection",
       "status": "passed",
-      "duration_ms": 8.471
+      "duration_ms": 8.334
     },
     {
       "id": "T10",
       "name": "out_of_order_events",
       "group": "detection",
       "status": "passed",
-      "duration_ms": 8.993
+      "duration_ms": 9.619
     },
     {
       "id": "T11",
       "name": "two_distinct_ips",
       "group": "detection",
       "status": "passed",
-      "duration_ms": 8.947
+      "duration_ms": 8.92
     },
     {
       "id": "T12",
       "name": "only_first_alert_per_ip",
       "group": "detection",
       "status": "passed",
-      "duration_ms": 9.273
+      "duration_ms": 8.72
     },
     {
       "id": "T13",
       "name": "unique_sorted_users",
       "group": "detection",
       "status": "passed",
-      "duration_ms": 10.052
+      "duration_ms": 8.947
     },
     {
       "id": "T14",
       "name": "custom_threshold",
       "group": "detection",
       "status": "passed",
-      "duration_ms": 10.532
+      "duration_ms": 9.236
     },
     {
       "id": "T15",
       "name": "custom_window",
       "group": "detection",
       "status": "passed",
-      "duration_ms": 10.975
+      "duration_ms": 9.299
     },
     {
       "id": "T16",
       "name": "threshold_one",
       "group": "detection",
       "status": "passed",
-      "duration_ms": 10.848
+      "duration_ms": 9.847
     },
     {
       "id": "T17",
       "name": "alerts_sorted_by_start_and_ip",
       "group": "output",
       "status": "passed",
-      "duration_ms": 11.007
+      "duration_ms": 10.051
     },
     {
       "id": "T18",
       "name": "exact_fields_types_and_iso_format",
       "group": "output",
       "status": "passed",
-      "duration_ms": 14.251
+      "duration_ms": 8.967
     },
     {
       "id": "T19",
       "name": "empty_input",
       "group": "robustness",
       "status": "passed",
-      "duration_ms": 2.153
+      "duration_ms": 2.618
     },
     {
       "id": "T20",
       "name": "mixed_valid_invalid_and_unrelated",
       "group": "robustness",
       "status": "passed",
-      "duration_ms": 13.191
+      "duration_ms": 12.019
     }
   ]
 }

@@ -50,3 +50,8 @@ python evaluator/generate_summary.py
 
 Os resultados consolidados são gravados em `results/summary.json` e `results/summary.csv`.
 
+## Encerramento da coleta
+
+Este protocolo foi mantido como registro das regras definidas para a execução do experimento. Os prompts, os testes e os critérios de pontuação não foram alterados durante a coleta.
+
+Os resultados e sua interpretação estão documentados separadamente em [RELATORIO-RESULTADOS.md](RELATORIO-RESULTADOS.md). Os dados estruturados que sustentam o relatório estão disponíveis em [`results/summary.csv`](../results/summary.csv) e [`results/summary.json`](../results/summary.json).

@@ -121,6 +121,16 @@ python evaluator/evaluate_all.py
 
 Os comandos podem ser executados da mesma forma no Linux ou no macOS, substituindo `python` por `python3` quando necessário. Consulte [docs/PROTOCOLO.md](docs/PROTOCOLO.md) para o procedimento completo.
 
+## Resultados finais
+
+As nove execuções foram concluídas. Os três modelos, nos níveis low, medium e high, aprovaram os 20 testes tanto na primeira entrega quanto após o feedback. Não ocorreram erros de entrega ou regressões.
+
+O resultado produziu um efeito teto: a tarefa confirmou que todos os participantes atendem integralmente aos requisitos avaliados, mas não permitiu diferenciá-los.
+
+- [Relatório completo dos resultados](docs/RELATORIO-RESULTADOS.md)
+- [Resultados em CSV](results/summary.csv)
+- [Resultados em JSON](results/summary.json)
+
 ## Reprodutibilidade
 
 Durante a coleta, os prompts, os testes e as regras de pontuação devem permanecer congelados. Cada execução deve registrar o modelo, o provedor, a versão exibida, a forma de acesso, as configurações disponíveis e a data da geração.
@@ -129,7 +139,7 @@ Os testes podem permanecer reservados durante o experimento e ser publicados ap�
 
 ## Estado do projeto
 
-O repositório contém os prompts congeláveis, dados sintéticos, implementação de referência, bateria de 20 testes, avaliador isolado por processo, geração automática de feedback e consolidação das métricas em JSON e CSV.
+O experimento está concluído. O repositório contém o protocolo, os prompts utilizados, os dados sintéticos, a implementação de referência, a bateria de 20 testes, as 18 soluções avaliadas, os relatórios automáticos e a consolidação final das métricas.
 
 ## Licença
 
