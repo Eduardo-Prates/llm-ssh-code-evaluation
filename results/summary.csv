@@ -2,9 +2,9 @@
 model-a,run-01,20,20,20,100.0,100.0,0,0,0,,0.0,False,False
 model-a,run-02,20,20,20,100.0,100.0,0,0,0,,0.0,False,False
 model-a,run-03,20,20,20,100.0,100.0,0,0,0,,0.0,False,False
-model-b,run-01,20,0,0,0.0,0.0,0,0,0,0.0,,True,True
-model-b,run-02,20,0,0,0.0,0.0,0,0,0,0.0,,True,True
-model-b,run-03,20,0,0,0.0,0.0,0,0,0,0.0,,True,True
+model-b,run-01,20,20,20,100.0,100.0,0,0,0,,0.0,False,False
+model-b,run-02,20,20,20,100.0,100.0,0,0,0,,0.0,False,False
+model-b,run-03,20,20,20,100.0,100.0,0,0,0,,0.0,False,False
 model-c,run-01,20,0,0,0.0,0.0,0,0,0,0.0,,True,True
 model-c,run-02,20,0,0,0.0,0.0,0,0,0,0.0,,True,True
 model-c,run-03,20,0,0,0.0,0.0,0,0,0,0.0,,True,True
