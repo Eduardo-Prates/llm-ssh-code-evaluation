@@ -1,0 +1,194 @@
+{
+  "protocol_version": "1.0",
+  "generated_at": "2026-09-21T00:29:33.589584+00:00",
+  "python_version": "3.14.6",
+  "solution": "D:\\Lab-artefatos\\llm-ssh-code-evaluation\\runs\\model-b\\run-01\\v2\\solution.py",
+  "timeout_seconds_per_test": 3.0,
+  "delivery_error": true,
+  "total": 20,
+  "passed": 0,
+  "failed": 20,
+  "score": 0.0,
+  "tests": [
+    {
+      "id": "T01",
+      "name": "parse_valid_user",
+      "group": "parser",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T02",
+      "name": "parse_invalid_user",
+      "group": "parser",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T03",
+      "name": "accepted_returns_none",
+      "group": "parser",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T04",
+      "name": "malformed_returns_none",
+      "group": "parser",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T05",
+      "name": "unrelated_returns_none",
+      "group": "parser",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T06",
+      "name": "ipv6_address",
+      "group": "parser",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T07",
+      "name": "five_failures_under_60_seconds",
+      "group": "detection",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T08",
+      "name": "five_failures_over_60_seconds",
+      "group": "detection",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T09",
+      "name": "exact_60_second_boundary",
+      "group": "detection",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T10",
+      "name": "out_of_order_events",
+      "group": "detection",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T11",
+      "name": "two_distinct_ips",
+      "group": "detection",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T12",
+      "name": "only_first_alert_per_ip",
+      "group": "detection",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T13",
+      "name": "unique_sorted_users",
+      "group": "detection",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T14",
+      "name": "custom_threshold",
+      "group": "detection",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T15",
+      "name": "custom_window",
+      "group": "detection",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T16",
+      "name": "threshold_one",
+      "group": "detection",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T17",
+      "name": "alerts_sorted_by_start_and_ip",
+      "group": "output",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T18",
+      "name": "exact_fields_types_and_iso_format",
+      "group": "output",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T19",
+      "name": "empty_input",
+      "group": "robustness",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    },
+    {
+      "id": "T20",
+      "name": "mixed_valid_invalid_and_unrelated",
+      "group": "robustness",
+      "status": "failed",
+      "duration_ms": 0,
+      "error_type": "DeliveryError",
+      "message": "solution.py não foi fornecido como arquivo baixável"
+    }
+  ]
+}

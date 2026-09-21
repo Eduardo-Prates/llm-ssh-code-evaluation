@@ -1,0 +1,154 @@
+{
+  "protocol_version": "1.0",
+  "generated_at": "2026-09-21T00:33:17.988914+00:00",
+  "python_version": "3.14.6",
+  "solution": "D:\\Lab-artefatos\\llm-ssh-code-evaluation\\runs\\model-a\\run-02\\v1\\solution.py",
+  "timeout_seconds_per_test": 3.0,
+  "delivery_error": false,
+  "total": 20,
+  "passed": 20,
+  "failed": 0,
+  "score": 100.0,
+  "tests": [
+    {
+      "id": "T01",
+      "name": "parse_valid_user",
+      "group": "parser",
+      "status": "passed",
+      "duration_ms": 0.659
+    },
+    {
+      "id": "T02",
+      "name": "parse_invalid_user",
+      "group": "parser",
+      "status": "passed",
+      "duration_ms": 0.693
+    },
+    {
+      "id": "T03",
+      "name": "accepted_returns_none",
+      "group": "parser",
+      "status": "passed",
+      "duration_ms": 0.789
+    },
+    {
+      "id": "T04",
+      "name": "malformed_returns_none",
+      "group": "parser",
+      "status": "passed",
+      "duration_ms": 0.64
+    },
+    {
+      "id": "T05",
+      "name": "unrelated_returns_none",
+      "group": "parser",
+      "status": "passed",
+      "duration_ms": 0.845
+    },
+    {
+      "id": "T06",
+      "name": "ipv6_address",
+      "group": "parser",
+      "status": "passed",
+      "duration_ms": 0.564
+    },
+    {
+      "id": "T07",
+      "name": "five_failures_under_60_seconds",
+      "group": "detection",
+      "status": "passed",
+      "duration_ms": 0.597
+    },
+    {
+      "id": "T08",
+      "name": "five_failures_over_60_seconds",
+      "group": "detection",
+      "status": "passed",
+      "duration_ms": 0.643
+    },
+    {
+      "id": "T09",
+      "name": "exact_60_second_boundary",
+      "group": "detection",
+      "status": "passed",
+      "duration_ms": 0.897
+    },
+    {
+      "id": "T10",
+      "name": "out_of_order_events",
+      "group": "detection",
+      "status": "passed",
+      "duration_ms": 0.643
+    },
+    {
+      "id": "T11",
+      "name": "two_distinct_ips",
+      "group": "detection",
+      "status": "passed",
+      "duration_ms": 0.758
+    },
+    {
+      "id": "T12",
+      "name": "only_first_alert_per_ip",
+      "group": "detection",
+      "status": "passed",
+      "duration_ms": 0.794
+    },
+    {
+      "id": "T13",
+      "name": "unique_sorted_users",
+      "group": "detection",
+      "status": "passed",
+      "duration_ms": 0.651
+    },
+    {
+      "id": "T14",
+      "name": "custom_threshold",
+      "group": "detection",
+      "status": "passed",
+      "duration_ms": 0.647
+    },
+    {
+      "id": "T15",
+      "name": "custom_window",
+      "group": "detection",
+      "status": "passed",
+      "duration_ms": 0.627
+    },
+    {
+      "id": "T16",
+      "name": "threshold_one",
+      "group": "detection",
+      "status": "passed",
+      "duration_ms": 0.596
+    },
+    {
+      "id": "T17",
+      "name": "alerts_sorted_by_start_and_ip",
+      "group": "output",
+      "status": "passed",
+      "duration_ms": 0.621
+    },
+    {
+      "id": "T18",
+      "name": "exact_fields_types_and_iso_format",
+      "group": "output",
+      "status": "passed",
+      "duration_ms": 7.904
+    },
+    {
+      "id": "T19",
+      "name": "empty_input",
+      "group": "robustness",
+      "status": "passed",
+      "duration_ms": 0.622
+    },
+    {
+      "id": "T20",
+      "name": "mixed_valid_invalid_and_unrelated",
+      "group": "robustness",
+      "status": "passed",
+      "duration_ms": 0.619
+    }
+  ]
+}

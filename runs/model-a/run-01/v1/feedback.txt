@@ -1,0 +1,8 @@
+RELATÓRIO AUTOMÁTICO DE TESTES
+
+Versão do protocolo: 1.0
+Testes aprovados: 20/20
+Pontuação: 100.0
+Erro de entrega: false
+
+Todos os testes foram aprovados.
